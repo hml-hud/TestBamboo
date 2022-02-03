@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<project name="blah"> 
+
+ <target name="checkout">
+  <svn username="abc" password="123">
+   <checkout url="svn://blah/blah/trunk" destPath="workingcopy"/>
+  </svn>
+ </target>
+</project>
